@@ -1,4 +1,4 @@
-23481026629865615
+23482744535153050
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95948,6 +95948,13 @@ Varistor VF
 0
 2
 2
+myLib8
+DFN-14_1.35x3.5mm_P0.5mm
+DFN, 14 Pin (https://m.littelfuse.com/media?resourcetype=datasheets&itemid=9fbe09c9-efee-4022-a889-ca0005cd9b07&filename=littelfuse-tvs-diode-array-sp3012-datasheet#page=5), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+14
+14
 myLib8
 HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias
 HSOP, 8 Pin (https://www.st.com/resource/en/datasheet/l5973d.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
