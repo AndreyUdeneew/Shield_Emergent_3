@@ -114,7 +114,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_JAE_DX07S024WJ3R400"
 		(layer "F.Cu")
 		(uuid "3c6839e7-c0dc-448f-bc56-afa5770fbef8")
-		(at 87.6 40.6)
+		(at 22.8 15.8)
 		(descr "USB TYPE C, VERT RCPT PCB, SMT, http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ117928.pdf")
 		(tags "USB C Type-C Receptacle SMD")
 		(property "Reference" "X1"
@@ -546,7 +546,7 @@
 			(at 2.25 1.75)
 			(size 0.27 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 19 "TX2+")
+			(net 24 "TX2-")
 			(pinfunction "TX2+")
 			(pintype "bidirectional")
 			(uuid "44782bf6-3dc5-4757-88cc-b93a1e29c706")
@@ -555,7 +555,7 @@
 			(at 1.75 1.75)
 			(size 0.27 1.3)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 24 "TX2-")
+			(net 19 "TX2+")
 			(pinfunction "TX2-")
 			(pintype "bidirectional")
 			(uuid "929b9685-9078-4a21-bbc7-34c825c76242")
@@ -1792,7 +1792,7 @@
 	(footprint "myLib8:DFN-14_1.35x3.5mm_P0.5mm"
 		(layer "B.Cu")
 		(uuid "2c336252-b819-4278-a4aa-b654827bfe46")
-		(at 83.8 25.8 -90)
+		(at 11 7.2 -90)
 		(descr "DFN, 14 Pin (https://m.littelfuse.com/media?resourcetype=datasheets&itemid=9fbe09c9-efee-4022-a889-ca0005cd9b07&filename=littelfuse-tvs-diode-array-sp3012-datasheet#page=5), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "DFN NoLead")
 		(property "Reference" "U3"
@@ -4114,7 +4114,7 @@
 	(footprint "myLib8:DFN-14_1.35x3.5mm_P0.5mm"
 		(layer "B.Cu")
 		(uuid "6f0466e3-536d-41f9-88cc-a7ca3faeeb90")
-		(at 91.4 58.6 -90)
+		(at 17.8 24 90)
 		(descr "DFN, 14 Pin (https://m.littelfuse.com/media?resourcetype=datasheets&itemid=9fbe09c9-efee-4022-a889-ca0005cd9b07&filename=littelfuse-tvs-diode-array-sp3012-datasheet#page=5), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "DFN NoLead")
 		(property "Reference" "U4"
@@ -4132,6 +4132,7 @@
 		(property "Value" "SP3012-06UTG"
 			(at 0 -2.7 -90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "a5024ec5-3186-45f7-8d3a-2a353f767d37")
 			(effects
 				(font
@@ -4142,7 +4143,7 @@
 			)
 		)
 		(property "Footprint" "myLib8:DFN-14_1.35x3.5mm_P0.5mm"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4155,7 +4156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4168,7 +4169,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4181,7 +4182,7 @@
 			)
 		)
 		(property "L1_NOM" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4195,7 +4196,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4209,7 +4210,7 @@
 			)
 		)
 		(property "B_NOM" "0.2"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4223,7 +4224,7 @@
 			)
 		)
 		(property "EMAX" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4237,7 +4238,7 @@
 			)
 		)
 		(property "D_MAX" "3.6"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4251,7 +4252,7 @@
 			)
 		)
 		(property "PACKAGE_TYPE" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4265,7 +4266,7 @@
 			)
 		)
 		(property "L1_MAX" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4279,7 +4280,7 @@
 			)
 		)
 		(property "A_MAX" "0.55"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4293,7 +4294,7 @@
 			)
 		)
 		(property "THERMAL_PAD" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4307,7 +4308,7 @@
 			)
 		)
 		(property "B_MIN" "0.15"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4321,7 +4322,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SP3012-06UTG/Ersa/view-part/?ref=eda"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4335,7 +4336,7 @@
 			)
 		)
 		(property "L1_MIN" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4349,7 +4350,7 @@
 			)
 		)
 		(property "B_MAX" "0.25"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4363,7 +4364,7 @@
 			)
 		)
 		(property "Description_1" "\nESD Suppressor Diode Array Uni-Dir 5V Automotive 14-Pin UDFN T/R\n"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4377,7 +4378,7 @@
 			)
 		)
 		(property "EMIN" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4391,7 +4392,7 @@
 			)
 		)
 		(property "JEDEC" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4405,7 +4406,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4419,7 +4420,7 @@
 			)
 		)
 		(property "ENOM" "0.5"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4433,7 +4434,7 @@
 			)
 		)
 		(property "D_NOM" "3.5"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4447,7 +4448,7 @@
 			)
 		)
 		(property "VACANCIES" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4461,7 +4462,7 @@
 			)
 		)
 		(property "L_MAX" "0.35"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4475,7 +4476,7 @@
 			)
 		)
 		(property "BALL_COLUMNS" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4489,7 +4490,7 @@
 			)
 		)
 		(property "D1_MAX" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4503,7 +4504,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4517,7 +4518,7 @@
 			)
 		)
 		(property "D1_NOM" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4531,7 +4532,7 @@
 			)
 		)
 		(property "D1_MIN" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4545,7 +4546,7 @@
 			)
 		)
 		(property "E2_NOM" "0.0"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4559,7 +4560,7 @@
 			)
 		)
 		(property "D2_NOM" "0.0"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4573,7 +4574,7 @@
 			)
 		)
 		(property "PARTREV" "02/23/17"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4587,7 +4588,7 @@
 			)
 		)
 		(property "DNOM" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4601,7 +4602,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SP3012-06UTG/Ersa/view-part/?ref=snap"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4615,7 +4616,7 @@
 			)
 		)
 		(property "DMIN" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4629,7 +4630,7 @@
 			)
 		)
 		(property "E_NOM" "1.35"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4643,7 +4644,7 @@
 			)
 		)
 		(property "BALL_ROWS" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4657,7 +4658,7 @@
 			)
 		)
 		(property "DMAX" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4671,7 +4672,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4685,7 +4686,7 @@
 			)
 		)
 		(property "PIN_COUNT" "14.0"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4699,7 +4700,7 @@
 			)
 		)
 		(property "L_NOM" "0.3"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4713,7 +4714,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Littelfuse"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4727,7 +4728,7 @@
 			)
 		)
 		(property "IPC" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4741,7 +4742,7 @@
 			)
 		)
 		(property "PIN_COLUMNS" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4755,7 +4756,7 @@
 			)
 		)
 		(property "MF" "Littelfuse"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4769,7 +4770,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.55mm"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4783,7 +4784,7 @@
 			)
 		)
 		(property "BODY_DIAMETER" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4797,7 +4798,7 @@
 			)
 		)
 		(property "E_MIN" "1.25"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4811,7 +4812,7 @@
 			)
 		)
 		(property "D_MIN" "3.4"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4825,7 +4826,7 @@
 			)
 		)
 		(property "MP" "SP3012-06UTG"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4839,7 +4840,7 @@
 			)
 		)
 		(property "PINS" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4853,7 +4854,7 @@
 			)
 		)
 		(property "L_MIN" "0.25"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4867,7 +4868,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4881,7 +4882,7 @@
 			)
 		)
 		(property "E_MAX" "1.45"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4899,16 +4900,6 @@
 		(sheetfile "Shield_Emergent_3.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 0.675 1.86)
-			(end -0.675 1.86)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "0ee77f69-2df3-441c-a708-265d2ef36e09")
-		)
-		(fp_line
 			(start 0.675 -1.86)
 			(end -0.675 -1.86)
 			(stroke
@@ -4917,6 +4908,16 @@
 			)
 			(layer "B.SilkS")
 			(uuid "3e28f1d7-fc0e-47da-a7ee-02c27037f724")
+		)
+		(fp_line
+			(start 0.675 1.86)
+			(end -0.675 1.86)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "0ee77f69-2df3-441c-a708-265d2ef36e09")
 		)
 		(fp_poly
 			(pts
@@ -4931,24 +4932,14 @@
 			(uuid "777c3a67-2f96-4a75-8c90-4005bdbdc981")
 		)
 		(fp_line
-			(start -1.3 2)
-			(end 1.3 2)
+			(start 1.3 -2)
+			(end -1.3 -2)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "1b282c28-79b0-45a6-9f6f-7d7f3f1ed1b4")
-		)
-		(fp_line
-			(start 1.3 2)
-			(end 1.3 -2)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "fe757692-222e-48b2-9955-0b1de6f555ea")
+			(uuid "3c47d898-1402-4c00-82d4-b5f385d46f48")
 		)
 		(fp_line
 			(start -1.3 -2)
@@ -4961,44 +4952,34 @@
 			(uuid "7d7e3e0c-b576-4b3f-b66e-686127869c15")
 		)
 		(fp_line
-			(start 1.3 -2)
-			(end -1.3 -2)
+			(start 1.3 2)
+			(end 1.3 -2)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "3c47d898-1402-4c00-82d4-b5f385d46f48")
+			(uuid "fe757692-222e-48b2-9955-0b1de6f555ea")
 		)
 		(fp_line
-			(start -0.3375 1.75)
-			(end -0.675 1.4125)
+			(start -1.3 2)
+			(end 1.3 2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "1b282c28-79b0-45a6-9f6f-7d7f3f1ed1b4")
+		)
+		(fp_line
+			(start 0.675 -1.75)
+			(end 0.675 1.75)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "013e82d8-e5f1-40e7-97f0-30ce1d3e13cd")
-		)
-		(fp_line
-			(start 0.675 1.75)
-			(end -0.3375 1.75)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "da2d5bdf-4a36-4d2a-8833-dab9499ebfd0")
-		)
-		(fp_line
-			(start -0.675 1.4125)
-			(end -0.675 -1.75)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "d7b16fe4-2b71-41a0-ba0c-457cc54b452e")
+			(uuid "b51fe86f-0504-4bdd-8a26-1d539e0bcf21")
 		)
 		(fp_line
 			(start -0.675 -1.75)
@@ -5011,14 +4992,34 @@
 			(uuid "094c9749-a713-4e38-9cac-54a5cffccd5b")
 		)
 		(fp_line
-			(start 0.675 -1.75)
-			(end 0.675 1.75)
+			(start -0.675 1.4125)
+			(end -0.675 -1.75)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "b51fe86f-0504-4bdd-8a26-1d539e0bcf21")
+			(uuid "d7b16fe4-2b71-41a0-ba0c-457cc54b452e")
+		)
+		(fp_line
+			(start 0.675 1.75)
+			(end -0.3375 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "da2d5bdf-4a36-4d2a-8833-dab9499ebfd0")
+		)
+		(fp_line
+			(start -0.3375 1.75)
+			(end -0.675 1.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "013e82d8-e5f1-40e7-97f0-30ce1d3e13cd")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -5033,47 +5034,47 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.625 1.5 270)
+			(at -0.625 1.5 90)
 			(size 0.85 0.3)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 24 "TX2-")
+			(net 21 "RX2+")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "78aa6cb3-d4af-4676-8503-6eaeb733d2da")
 		)
 		(pad "2" smd roundrect
-			(at -0.625 1 270)
+			(at -0.625 1 90)
 			(size 0.85 0.3)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 19 "TX2+")
+			(net 22 "RX2-")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "6e62560a-886a-49ac-89f9-09d0a94e38ef")
 		)
 		(pad "3" smd roundrect
-			(at -0.625 0.5 270)
+			(at -0.625 0.5 90)
 			(size 0.85 0.3)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 21 "RX2+")
+			(net 24 "TX2-")
 			(pinfunction "3")
 			(pintype "passive")
 			(uuid "ed618360-975c-48e8-a66d-c09899508bc0")
 		)
 		(pad "4" smd roundrect
-			(at -0.625 0 270)
+			(at -0.625 0 90)
 			(size 0.85 0.3)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 22 "RX2-")
+			(net 19 "TX2+")
 			(pinfunction "4")
 			(pintype "passive")
 			(uuid "06c1c7f4-0fcd-4717-8d30-4caf601ce3b1")
 		)
 		(pad "5" smd roundrect
-			(at -0.625 -0.5 270)
+			(at -0.625 -0.5 90)
 			(size 0.85 0.3)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -5083,7 +5084,7 @@
 			(uuid "5c073c3c-d970-4315-a1ae-41b5af7d845d")
 		)
 		(pad "6" smd roundrect
-			(at -0.625 -1 270)
+			(at -0.625 -1 90)
 			(size 0.85 0.3)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -5093,7 +5094,7 @@
 			(uuid "98e200d3-8824-4bcb-8b78-c4c68c60f081")
 		)
 		(pad "7" smd roundrect
-			(at -0.625 -1.5 270)
+			(at -0.625 -1.5 90)
 			(size 0.85 0.3)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -5103,7 +5104,7 @@
 			(uuid "01e57f0b-044d-43ef-9f8c-f95edf2d97d6")
 		)
 		(pad "8" smd roundrect
-			(at 0.625 -1.5 270)
+			(at 0.625 -1.5 90)
 			(size 0.85 0.3)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -5113,7 +5114,7 @@
 			(uuid "20cfb661-7215-4f36-a847-eafd2d778230")
 		)
 		(pad "9" smd roundrect
-			(at 0.625 -1 270)
+			(at 0.625 -1 90)
 			(size 0.85 0.3)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -5123,7 +5124,7 @@
 			(uuid "92aac416-abc1-41bf-9774-a440c9b115a8")
 		)
 		(pad "10" smd roundrect
-			(at 0.625 -0.5 270)
+			(at 0.625 -0.5 90)
 			(size 0.85 0.3)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -5133,41 +5134,41 @@
 			(uuid "f4f35bb7-71a3-4d0d-a42c-11187233ee6e")
 		)
 		(pad "11" smd roundrect
-			(at 0.625 0 270)
+			(at 0.625 0 90)
 			(size 0.85 0.3)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 22 "RX2-")
+			(net 19 "TX2+")
 			(pinfunction "11")
 			(pintype "passive")
 			(uuid "5389a35d-5cd6-41c9-854f-35ae36bf5f64")
 		)
 		(pad "12" smd roundrect
-			(at 0.625 0.5 270)
+			(at 0.625 0.5 90)
 			(size 0.85 0.3)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 21 "RX2+")
+			(net 24 "TX2-")
 			(pinfunction "12")
 			(pintype "passive")
 			(uuid "299fedec-0656-44f2-aa2c-c981d87af1b3")
 		)
 		(pad "13" smd roundrect
-			(at 0.625 1 270)
+			(at 0.625 1 90)
 			(size 0.85 0.3)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 19 "TX2+")
+			(net 22 "RX2-")
 			(pinfunction "13")
 			(pintype "passive")
 			(uuid "962008f8-22ec-4105-9247-ea34f5ad7536")
 		)
 		(pad "14" smd roundrect
-			(at 0.625 1.5 270)
+			(at 0.625 1.5 90)
 			(size 0.85 0.3)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 24 "TX2-")
+			(net 21 "RX2+")
 			(pinfunction "14")
 			(pintype "passive")
 			(uuid "d4947854-0ab4-42fe-a497-6dec0b96aa4e")
@@ -5187,7 +5188,7 @@
 	(footprint "USB_Conns:MU3MS04"
 		(layer "B.Cu")
 		(uuid "9929187b-71cf-49da-b440-e4a239b5c3e8")
-		(at 83 64.2 180)
+		(at 9.3 28.4 180)
 		(property "Reference" "J3"
 			(at -4.75 2.65 0)
 			(unlocked yes)
@@ -5387,7 +5388,7 @@
 			(drill 0.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 24 "TX2-")
+			(net 19 "TX2+")
 			(pinfunction "SSTX-")
 			(pintype "output")
 			(uuid "481c1c3c-fb29-43d9-ab30-59be30bd0e1e")
@@ -5398,7 +5399,7 @@
 			(drill 0.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 19 "TX2+")
+			(net 24 "TX2-")
 			(pinfunction "SSTX+")
 			(pintype "output")
 			(uuid "19387643-fbb0-453e-86c2-22248695f4ec")
@@ -5656,7 +5657,7 @@
 	(footprint "USB_Conns:MU3MS04"
 		(layer "B.Cu")
 		(uuid "bb9c5975-5c63-4292-a059-36f29e48a158")
-		(at 91.2 20)
+		(at 18.7 2.8)
 		(property "Reference" "J1"
 			(at -4.75 2.65 180)
 			(unlocked yes)
@@ -6925,5 +6926,27 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_circle
+		(center 9 13)
+		(end 16 13)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "01cf3837-d0b3-474c-9790-a95891c15fe0")
+	)
+	(gr_rect
+		(start 0 0)
+		(end 28 36)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "4d2ae235-7287-4334-9924-a2245b4197d7")
 	)
 )
