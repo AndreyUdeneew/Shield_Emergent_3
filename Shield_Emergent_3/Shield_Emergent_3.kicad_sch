@@ -508,7 +508,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
+		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -522,8 +522,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x04_Odd_Even"
-				(at 1.27 -7.62 0)
+			(property "Value" "Conn_02x03_Odd_Even"
+				(at 1.27 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -548,7 +548,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -575,18 +575,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x04_Odd_Even_1_1"
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Conn_02x03_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -622,24 +611,13 @@
 				)
 				(rectangle
 					(start -1.27 3.81)
-					(end 3.81 -6.35)
+					(end 3.81 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(rectangle
@@ -776,42 +754,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3795,16 +3737,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 33.02) (xy 52.07 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17da59eb-c384-4a24-940b-26a388defc79")
-	)
-	(wire
-		(pts
 			(xy 234.95 53.34) (xy 236.22 53.34)
 		)
 		(stroke
@@ -4232,16 +4164,6 @@
 			(type default)
 		)
 		(uuid "599b5cb3-0b96-4a66-9276-005bdb2a8a3f")
-	)
-	(wire
-		(pts
-			(xy 36.83 33.02) (xy 38.1 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62dcfbff-af4b-4fe0-ab8d-cd1e9ff0f60d")
 	)
 	(wire
 		(pts
@@ -5537,28 +5459,6 @@
 			)
 		)
 	)
-	(global_label "VOUT2"
-		(shape input)
-		(at 52.07 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "42a102f5-3984-471a-b26a-206a44c2eb1f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.9819 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RX2+"
 		(shape input)
 		(at 234.95 101.6 180)
@@ -5726,28 +5626,6 @@
 		(uuid "5d5c2445-e6d1-42f6-a7db-bd560c40a5ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 227.0058 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VOUT1"
-		(shape input)
-		(at 36.83 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "62364fd3-7253-4b22-bb15-e36994d08cfa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.9181 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7980,93 +7858,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
-		(at 43.18 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bde6afc-4b35-47bd-ab11-fefae274a415")
-		(property "Reference" "J2"
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x04_Odd_Even"
-			(at 44.45 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
-			(at 43.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "8c3cc523-2a1e-4f9e-894b-6d82eefdf354")
-		)
-		(pin "2"
-			(uuid "20a3c2ec-ab82-456a-ade6-701b7c89203b")
-		)
-		(pin "4"
-			(uuid "9a8bce6f-e499-4d59-a8b0-7097d67f45d5")
-		)
-		(pin "1"
-			(uuid "353336ba-c735-4d1b-85da-d1e87d8f1282")
-		)
-		(pin "6"
-			(uuid "b89a4a80-5c67-4cff-b044-d971ad0de0bd")
-		)
-		(pin "3"
-			(uuid "5abceb8c-7cf7-4e4f-a83f-d757e2efaf1c")
-		)
-		(pin "5"
-			(uuid "fef36f99-d334-44e3-867e-554dca3d15da")
-		)
-		(pin "8"
-			(uuid "492fec3d-44fa-4821-9bf7-4a5f426685c9")
-		)
-		(instances
-			(project "Shield_Emergent_3"
-				(path "/e876a9d6-39c5-4a0a-9fdb-4afd596a6b67"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 33.02 53.34 0)
 		(unit 1)
@@ -8394,6 +8185,87 @@
 			(project "Shield_Emergent_3"
 				(path "/e876a9d6-39c5-4a0a-9fdb-4afd596a6b67"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(at 43.18 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84eb2c18-59fa-433e-ba41-ab8f42ceebc4")
+		(property "Reference" "J2"
+			(at 44.45 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x03_Odd_Even"
+			(at 44.45 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
+			(at 43.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 43.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2f7ab07-ada2-4e0a-b395-c24d8c354249")
+		)
+		(pin "3"
+			(uuid "78b515a3-54ef-46b8-80d0-c32745232d2b")
+		)
+		(pin "4"
+			(uuid "654eecd7-5b51-4157-93a0-c9cd18c6f777")
+		)
+		(pin "5"
+			(uuid "44a9ea1d-668d-4ce9-b3cc-0d6d1174c57a")
+		)
+		(pin "6"
+			(uuid "faccd121-a81e-4137-b62c-5517e2b3f301")
+		)
+		(pin "1"
+			(uuid "ecb3f35d-fa54-4669-aad3-8704058cb960")
+		)
+		(instances
+			(project "Shield_Emergent_3"
+				(path "/e876a9d6-39c5-4a0a-9fdb-4afd596a6b67"
+					(reference "J2")
 					(unit 1)
 				)
 			)
