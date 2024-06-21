@@ -1,4 +1,4 @@
-23482744535153050
+23484463516000493
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95948,6 +95948,13 @@ Varistor VF
 0
 2
 2
+myLib8
+04FFS-SP-TF (LF)(SN)
+
+
+0
+6
+5
 myLib8
 DFN-14_1.35x3.5mm_P0.5mm
 DFN, 14 Pin (https://m.littelfuse.com/media?resourcetype=datasheets&itemid=9fbe09c9-efee-4022-a889-ca0005cd9b07&filename=littelfuse-tvs-diode-array-sp3012-datasheet#page=5), generated with kicad-footprint-generator ipc_noLead_generator.py
